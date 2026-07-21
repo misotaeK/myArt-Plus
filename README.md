@@ -1,8 +1,8 @@
-# myArt+
+myArt+ 
 
-A retro, Y2K-styled community site for artists — upload and browse artwork, hang out in the forum, run or join groups, host events, and trade commissions with other members. Built as a personal hobby project.
+A community site for artists inspired by old web culture !  — upload and browse artwork, hang out in the forum, run or join groups, host events, and trade commissions with other members. Built as a personal hobby project.
 
-## Features
+Features
 
 - **Artwork gallery** — upload art into 19 categories across 4 groups (Digital, Traditional, Characters, Photo & Other), with search, category filters, and sort by newest / oldest / most liked
 - **Forum** — multiple boards, threads with replies, pinning and locking (admin), search
@@ -15,7 +15,7 @@ A retro, Y2K-styled community site for artists — upload and browse artwork, ha
 - **Bilingual** — full English/Turkish translation, switchable at any time
 - **Light & dark themes**, switchable at any time
 
-## Tech Stack
+Tech Stack
 
 - PHP (procedural, `mysqli`)
 - MySQL
@@ -23,7 +23,7 @@ A retro, Y2K-styled community site for artists — upload and browse artwork, ha
 - Bootstrap 4 (image modal) + a fully custom Y2K-style CSS theme (`style.css`) built on CSS custom properties for the light/dark themes
 - No frameworks, no build step — plain PHP files served directly
 
-## Getting Started
+Getting Started
 
 1. Install [XAMPP](https://www.apachefriends.org/) (or any Apache + PHP + MySQL stack)
 2. Clone this repo into your `htdocs` folder
@@ -32,7 +32,7 @@ A retro, Y2K-styled community site for artists — upload and browse artwork, ha
 5. Visit `setup_admin.php` once to create an admin account (`admin@hotmail.com` / `1502` by default — change this if you plan to expose the site publicly)
 6. Browse to `index.php` in your browser
 
-## Project Structure
+Project Structure
 
 Each page is a self-contained PHP file (no router/framework) that handles its own session, language, theme, and page logic, then renders its own HTML. Shared pieces live in a handful of includes:
 
@@ -42,6 +42,32 @@ Each page is a self-contained PHP file (no router/framework) that handles its ow
 - `categories_config.php` — the single source of truth for artwork categories, shared by Browse, Categories, and profile pages
 - `*_api.php` — AJAX endpoints (forum, chat, groups, artwork likes, discovery)
 
-## License
+License
 
 Personal project — no license file yet, all rights reserved by default.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
